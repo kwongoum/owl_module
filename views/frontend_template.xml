@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <template id="frontend_template" name="Frontend Template">
+
+        <t t-call="website.layout">
+
+            <div class="container">
+
+                <h1>Welcome to Our Website - Odoo 17</h1>
+
+                <p>
+                    This is a sample frontend template for Odooooooo.
+                </p>
+
+                <!-- Montage automatique du composant OWL -->
+                <owl-component name="owl_module.Main" />
+
+                <p class="mt-3">
+                    Autre contenu de ma page frontendddddddd.
+                </p>
+
+            </div>
+
+        </t>
+
+    </template>
+
+</odoo>
