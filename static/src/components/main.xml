@@ -17,6 +17,12 @@
                 Increment : <t t-esc="state.value"/>
 
             </button>
+            <input
+                type="text"
+                t-ref="myInput"
+                class="form-control mt-2"
+                placeholder="Entrez quelque chose..." />
+                <button t-on-click="onButtonClick">click</button>
 
         </div>
 
