@@ -12,9 +12,9 @@
     ],
     "assets": {
         "web.assets_frontend": [
-            "owl_module/static/src/components/main.js",
-            "owl_module/static/src/components/main.scss",
-            "owl_module/static/src/components/main.xml",
+            "owl_module/static/src/components/*.js",
+            "owl_module/static/src/components/*.scss",
+            "owl_module/static/src/components/*.xml",
         ],
     },
     "installable": True,

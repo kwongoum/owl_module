@@ -25,6 +25,7 @@
                 <button t-on-click="onButtonClick">click</button>
 
         </div>
+        <Sub  name="'in sub tag'" />
 
     </t>
 

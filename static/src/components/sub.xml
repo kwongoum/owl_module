@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+    <t t-name="owl_module.Sub">
+
+        <div>
+
+            <h3>Mon composant sub</h3>
+
+            <p> the sub owl template <span  t-esc="props.name"/> </p>
+
+
+        </div>
+
+    </t>
+
+</templates>
