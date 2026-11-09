@@ -9,7 +9,17 @@
 
             <p> the sub owl template <span  t-esc="props.name"/> </p>
 
+            <button
+                type="button"
+                class="btn btn-secondary"
+                t-on-click="()=> props.onSubClickedButParentMethod?.(props.contact?.name)">
 
+                Click from Sub Component </button>
+
+            <!--  <t t-foreach="props.contacts" t-as="contact" t-key="contact.id">
+                <p><span t-esc="contact.name"/> - <span t-esc="contact.email"/></p>
+            </t> -->
+            <p><span t-esc="props.contact?.name || 'N/A'"/> - <span t-esc="props.contact?.email || 'N/A'"/></p>
         </div>
 
     </t>

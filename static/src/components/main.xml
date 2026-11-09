@@ -25,7 +25,18 @@
                 <button t-on-click="onButtonClick">click</button>
 
         </div>
-        <Sub  name="'in sub tag'" />
+        <t t-foreach="state.contacts" t-as="contact" t-key="contact.id">
+        
+       
+        <Sub name="state.subName"
+                contact="contact"
+                onSubClickedButParentMethod.bind="onSubClickedButParentMethod"
+            />
+        </t>
+        <!--  <Sub  name="state.subName" 
+              onSubClickedButParentMethod.bind="onSubClickedButParentMethod"
+              contacts="state.contacts"
+        /> -->
 
     </t>
 
